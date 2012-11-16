@@ -1,5 +1,5 @@
 //
-//  CLViewController.h
+//  CLContinentCell.h
 //  City List
 //
 //  Created by MichaelHsu on 12/10/24.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CLViewController : UIViewController
+@interface CLContinentCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *continentName;
 
 @end
